@@ -36,5 +36,6 @@ fn main() {
         final_vector.push(double.parse().unwrap())
     }
     let result: u32 = final_vector.iter().sum();
+    
     println!("Result of sum: {}", result);
 }
